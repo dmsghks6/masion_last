@@ -1157,6 +1157,11 @@ footer .footer-b{
     .main-section .logo-zone {
         width: 150px;
     }
+
+    .main-section .logo-zone-2nd{
+        width: 50px;
+    }
+    
     .hamburger-zone {
         width: 25px;
     }
