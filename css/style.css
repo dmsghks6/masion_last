@@ -1199,6 +1199,7 @@ footer .footer-b{
 
     .sec-2 {
         height: 100vh;
+        background-attachment: scroll;
     }
 
 
@@ -1220,6 +1221,10 @@ footer .footer-b{
 
     .sec-2 .btn {
         font-size: 0.875rem;
+    }
+
+    .sec-3 {
+        height: 110vh;
     }
 
     .sec-3 .fixed-txt {
