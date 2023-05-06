@@ -1197,6 +1197,10 @@ footer .footer-b{
     }
 
 
+    .sec-2 {
+        height: 100vh;
+    }
+
 
     .sec-2 .icon-t, .sec-2 .icon-b {
         width: 35px;
@@ -1226,6 +1230,13 @@ footer .footer-b{
     .sec-4 .title {
         font-size: 1.5rem;
     }
+
+   
+
+    .sec-4 .inner {
+        pointer-events: none;
+    }
+
 
 
     footer {
