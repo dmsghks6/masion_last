@@ -1152,6 +1152,12 @@ footer .footer-b{
     }
 }
 
+@media(max-width : 750px){
+    .sec-4 .txt-box {
+        font-size: 1rem;
+    }
+}
+
 @media(max-width : 500px){
 
     .main-section .logo-zone {
