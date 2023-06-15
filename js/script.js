@@ -142,69 +142,7 @@ $(document).ready(function(){
   ww = $(window).width();
   resizeSwiper();
 });
-  
 
-  // swiper 두개 구동 하고 연결 하기 
-
-  // var mainSwiper = new Swiper('.firstSwiper',{
-  //   controller : {
-  //     control : subSwiper,
-  //   },
-  //   effect : "fade",
-  //   loop : true,
-  //   speed: 1500,
-  //   // autoplay : {
-  //   //     delay : 3500,
-  //   //     disableOnInteraction : false,
-  //   // },  
-  //   //-> swiper 두개를 연동 시키고 autoplay가 두개면 순서가 꼬이는 현상 발생 
-  //   navigation: {
-  //     nextEl: ".swiper-button-next",
-  //     prevEl: ".swiper-button-prev",
-  //   },
-  //   pagination: {
-  //       el: ".swiper-pagination",
-  //       clickable: true,
-  //   },
-  
-  // });
-
-  //   var subSwiper = new Swiper('.secondSwiper',{
-  //     controller:{
-  //       control : mainSwiper,
-  //     },
-  //     loop: true,
-  //     speed: 1500,
-  //     spaceBetween: 10,
-  //     direction: "vertical",
-  //     slidesPerView: 1,
-  //     slidesPerGroups: 1,
-  //     // autoplay: {
-  //     //   delay: 3500,
-  //     //   disableOnInteraction: false,
-  //     // },
-  //     // => 작업 하는동안 잠시 멈춰둠
-
-
-  //     pagination: {
-  //       el: ".swiper-pagination",
-  //       clickable: true,
-  //     },
-  //     navigation: {
-  //       nextEl: ".swiper-button-next",
-  //       prevEl: ".swiper-button-prev",
-  //     },
-  //     pagination: {
-  //         el: ".swiper-pagination",
-  //         clickable: true,
-  //     },
-  
-  // });
-
-  // mainSwiper.controller.control = subSwiper;
-  // subSwiper.controller.control = mainSwiper;
-
- 
 
   $(window).resize(function(){    
 
@@ -269,55 +207,6 @@ $(document).ready(function(){
 }).resize()
 
 
-
-
-
-
-
-  
-  // aos 화면 사이즈 별로 다르게 표현 하기 
-
-//   $(window).resize(function(){    
-//     if (window.matchMedia("(max-width: 1450px)").matches) {
-//       $('.aos1').attr({
-//         'data-aos': 'zoom-in-down',
-//         'data-aos-duration' : '1500',
-//         'data-aos-offset' : '100'
-//       });
-
-//       $('.aos2').attr({
-//         'data-aos': 'zoom-in-down',
-//         'data-aos-duration' : '1500',
-//         'data-aos-offset' : '100'
-//       });
-
-//       $('.aos3').attr({
-//         'data-aos': 'zoom-in-down',
-//         'data-aos-duration' : '1500',
-//         'data-aos-offset' : '100'
-//       });
-//     } else {
-  
-//       $('.aos1').attr({
-//         'data-aos': 'fade-right',
-//         'data-aos-duration' : '1500',
-//         'data-aos-offset' : '400'
-//       });
-
-//       $('.aos2').attr({
-//         'data-aos': 'fade-up-left',
-//         'data-aos-duration' : '1500',
-//         'data-aos-offset' : '400'
-//       });
-
-//       $('.aos3').attr({
-//         'data-aos': 'fade-up-right',
-//         'data-aos-duration' : '1500',
-//         'data-aos-offset' : '400'
-//       });
-     
-//     }
-// }).resize()
 
   // aos 500 밑으로는 없애기 
   AOS.init({
