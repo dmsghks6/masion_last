@@ -103,11 +103,11 @@ $(document).ready(function(){
       direction: "vertical",
       slidesPerView: 1,
       slidesPerGroups: 1,
-      // autoplay: {
-      //   delay: 3500,
-      //   disableOnInteraction: false,
-      // },
-      // => 작업 하는동안 잠시 멈춰둠
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      },
+      
 
 
       pagination: {
